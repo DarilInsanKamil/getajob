@@ -8,10 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      textUnderlineOffset: {
+        bottom: '21px',
+      },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'hero-pattern': "url('/bg.png')",
+      },
+      fontFamily: {
+        'firacode': 'var(--fira)',
+        'inter': 'var(--inter)'
       },
     },
   },
