@@ -1,5 +1,4 @@
 import { Button, ButtonStroke } from "../button";
-import { firacode } from "../fonts";
 
 export default function HeroSection() {
   return (
@@ -17,8 +16,8 @@ export default function HeroSection() {
           journey.
         </p>
         <div className="flex w-full gap-3 mt-5 md:justify-center ">
-          <Button children="Apply Now" />
-          <ButtonStroke children="Learn More" />
+          <Button type="button">Apply Now</Button>
+          <ButtonStroke type="button">Learn More</ButtonStroke>
         </div>
       </div>
       <div className="absolute bottom-10 flex flex-col items-center text-gray-400">
