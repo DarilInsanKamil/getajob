@@ -11,8 +11,8 @@ export default function HeroSection() {
         </h1>
         <p className="md:w-[600px] break-words mt-3 font-inter text-sm">
           Welcome to a platform dedicated to shaping your professional future.
-          At <span className="font-bold">GET-A-JOB</span>, we believe in more
-          than just job hunting; we're committed to empowering your career
+          At <span className="font-firacode">GET-A-JOB</span>, we believe in more
+          than just job hunting, we're committed to empowering your career
           journey.
         </p>
         <div className="flex w-full gap-3 mt-5 md:justify-center ">
